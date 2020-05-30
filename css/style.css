@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+.banner{
+    background-image: url(../img/img_workshop_reprograma/DSC02925.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 1px 2px black;
+}
+
+.banner__conteudo{
+    text-align: center;
+}
+
+.banner__titulo{
+    font-size: 40px;
+}
+
+.banner__subtitulo{
+    font-size: 24px;
+}
+
+.banner__link{
+    text-decoration: none;
+    color: rgb(23, 128, 58);
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    border-style: ridge;
+    border-color: rgb(7, 59, 27);
+    
+}
+
+.banner__link:hover{
+    background-color: rgb(81, 216, 104);
+}
+
+.sobre{
+    padding: 50px;
+    
+}
+
+.sobre__titulo{
+    color:rgb(165, 161, 161);
+    font-size:45px;
+}
+
+.sobre__conteudo{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    line-height: 40px;
+    font-size: 24px;
+    color:rgb(165, 161, 161);
+}
+
+.sobre__descricao{
+    width:50%;
+    
+
+}
+
+.sobre__habilidades{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.descricao__p2{
+    margin-bottom: 50px;
+}
+
+.footer{
+    margin: 5% 15%;
+
+}
+
+.redes-sociais{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.redes-sociais__link{
+    background-color: rgb(10, 105, 42);
+    color:white;
+    text-decoration: none;
+    margin: 20px;
+    text-align: center;
+    padding: 15px 25px;
+    width: 180px;
+    height: 180px;
+    border-radius: 30px;
+}
+
+.redes-sociais__link:hover {
+    opacity: 0.8;
+}
+
+.copyright {
+    text-align: center;
+}
+
+@media(max-width: 768px){
+    .sobre__conteudo{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sobre__descricao{
+        width: 100%;
+    }
+
+    .sobre__habilidades{
+        width:100%;
+    }
+}
+
+
+
